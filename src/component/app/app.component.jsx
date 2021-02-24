@@ -2,15 +2,16 @@ import React from 'react'
 import { Footer } from '../footer'
 import { Header } from '../header'
 import { LeftMenu } from '../left-menu'
+import { Title, Wrapper } from './app.style'
 
 export const App = () => {
   return (
-    <div>
-      <h1>Ma mut in Canary Wharf.</h1>
+    <Wrapper>
+      <Title>Ma mut in Canary Wharf.</Title>
       <Header />
       <LeftMenu />
       <Footer />
-    </div>
+    </Wrapper>
   )
 }
 
