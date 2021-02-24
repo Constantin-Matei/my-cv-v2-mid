@@ -1,1 +1,12 @@
-console.log('Marian se uita dupa baterii, pentru ca nu-i merge remote controlul.')
+import React from 'react'
+import { render } from 'react-dom'
+// import { App } from './component/app/app.component'
+// import { App } from './component/app/index'
+import { App } from './component/app'
+
+
+
+const app = <App /> 
+const here = document.querySelector('#here')
+// document.getElementById('here')
+render(app, here)
