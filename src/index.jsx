@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 // import { App } from './component/app/app.component'
 // import { App } from './component/app/index'
 import { App } from './component/app'
+import './index.css'
 
 
 

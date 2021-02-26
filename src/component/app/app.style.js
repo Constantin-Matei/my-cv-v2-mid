@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-// am un div si un h1
+// // am un div si un h1
 
 export const Wrapper = styled.div`
-  border: 15px dashed lightblue;
+  /* border: 15px dashed lightblue; */
 `
 
 export const Title = styled.h1`

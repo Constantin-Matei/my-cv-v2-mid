@@ -7,10 +7,24 @@ import { Title, Wrapper } from './app.style'
 export const App = () => {
   return (
     <Wrapper>
-      <Title>Ma mut in Canary Wharf.</Title>
-      <Header />
-      <LeftMenu />
-      <Footer />
+      <Header title="Aici e vreun header"/>
+
+      <Header title="Let's Connect"/>
+
+      <Header title="Skills"/>
+
+      <Header title="Experience"/>
+
+      <Header title="Open Source"/>
+
+      <Header title="Portofolio"/>
+
+      <Header title="Recomandations"/>
+
+      <Header title="Reviews"/>
+
+      <Header title="I'm proud"/>
+      
     </Wrapper>
   )
 }
