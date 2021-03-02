@@ -3,6 +3,11 @@
     "title": "Welcome to My CV",
     "name": "Constantin Matei",
     "jobName": "Early Junior JavaScript",
-    "descriptionTitle": "About me"
+    "descriptionTitle": "About me",
+    "description": [
+      "About meAbout meAbout meAbout meAbout meAbout meAbout me",
+      "About meAbout meAbout meAbout meAbout meAbout meAbout me",
+      "About meAbout meAbout meAbout meAbout meAbout meAbout me"
+    ]
   }
 }

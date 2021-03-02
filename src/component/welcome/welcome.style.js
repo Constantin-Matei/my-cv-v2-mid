@@ -24,3 +24,8 @@ export const DescriptionTitle = styled.div`
   color: #808080;
   font-size: 22px;
 `;
+
+export const Description = styled.div`
+  color: #707070;
+  font-size: 14px;
+`;
