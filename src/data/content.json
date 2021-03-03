@@ -8,6 +8,11 @@
       "About meAbout meAbout meAbout meAbout meAbout meAbout me",
       "About meAbout meAbout meAbout meAbout meAbout meAbout me",
       "About meAbout meAbout meAbout meAbout meAbout meAbout me"
-    ]
+    ],
+    "button":{
+      "label": "Download My CV",
+      "href": "https://google.com",
+      "icon": "download"
+    }
   }
 }

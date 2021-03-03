@@ -5,7 +5,7 @@ import { Grid } from '@material-ui/core'
 import { StyledRow } from '../row/row.styled';
 
 export const Welcome = () => {
-  const [ data, salveazaData ] = useState({description: []})
+  const [ data, salveazaData ] = useState({description: [], button:{}})
   useEffect(() => {
     // vreau sa iau datele de pe server in frontend
     fetch('http://localhost:3800/welcome')
@@ -16,7 +16,7 @@ export const Welcome = () => {
       })
   }, [])
   console.log(data)
-  const { title, name, jobName, descriptionTitle, description } = data
+  const { title, name, jobName, descriptionTitle, description, button } = data
   return (
     <>
       <StyledRow>
@@ -36,6 +36,9 @@ export const Welcome = () => {
       </StyledRow>
       <StyledRow>
         <WS.Description>{description.map(item => <p>{item}</p>)}</WS.Description>
+      </StyledRow>
+      <StyledRow jc="center">
+        <WS.Button>{button.label}</WS.Button>
       </StyledRow>
     </>
   );

@@ -29,3 +29,11 @@ export const Description = styled.div`
   color: #707070;
   font-size: 14px;
 `;
+
+export const Button = styled.button`
+  color: white;
+  background-color: #1875F0;
+  border-radius: 24px;
+  height: 40px;
+  border: 0;
+`;

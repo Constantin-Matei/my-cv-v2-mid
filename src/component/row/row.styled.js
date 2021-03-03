@@ -3,4 +3,6 @@ import styled from 'styled-components' //am importat styled dintr-o librarie dej
 
 export const StyledRow = styled.div`
   grid-column: 1/-1;
+  ${({ jc }) => jc ? `display: flex;justify-content: ${ jc };` : ''}
+  
 `
